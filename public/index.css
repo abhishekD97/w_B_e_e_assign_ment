@@ -1,0 +1,43 @@
+html body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c3338;
+}
+
+.c{
+    height: 50vh;
+    background: #2c3338;
+    margin-top: 25vh;
+    padding-bottom: 2rem;
+    width: 30vw;
+}
+
+.c .inputs input
+{
+    margin-bottom: 2rem;
+    padding: 1.3rem;
+    background-color: #3b4148;
+    border-style: none;
+    border-radius: 2px;
+}
+
+.c .inputs input::placeholder
+{
+    color: rgb(116, 116, 116);
+}
+
+.c .inputs input:focus
+{
+    outline: none;
+    border:none;
+    box-shadow: none;
+}
+
+.as
+{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    
+}
