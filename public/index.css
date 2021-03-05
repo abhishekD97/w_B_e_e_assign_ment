@@ -3,12 +3,12 @@ html body
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2c3338;
+    background-color: #dddddd;
 }
 
 .c{
-    height: 50vh;
-    background: #2c3338;
+    height: auto;
+    background: #dddddd;
     margin-top: 25vh;
     padding-bottom: 2rem;
     width: 30vw;
@@ -18,14 +18,15 @@ html body
 {
     margin-bottom: 2rem;
     padding: 1.3rem;
-    background-color: #3b4148;
+    background-color: #f9f3f3;
     border-style: none;
     border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .c .inputs input::placeholder
 {
-    color: rgb(116, 116, 116);
+    color: rgb(0, 0, 0);
 }
 
 .c .inputs input:focus
@@ -39,5 +40,55 @@ html body
 {
     text-align: center;
     font-family: 'Caveat', cursive;
-    
+    color: rgb(66, 61, 61);
+    font-weight: 600;
+}
+
+.granpa
+{
+    height: 100vh;
+    width: 100%;
+}
+
+.parent
+{
+    width: 60vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 15vh;
+}
+
+.child
+{
+    height: 2.4rem;
+    flex: 1 1 70rem;
+}
+
+.childLanding
+{
+    height: 2.4rem;
+    flex: 1 1 4rem;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.child:first-child
+{
+    height: 5rem;
+    flex: 1 1 180px;
+    background-color: #edeef7;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.child:nth-child(2)
+{
+    height: 20rem;
+    background-color: #edeef7;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

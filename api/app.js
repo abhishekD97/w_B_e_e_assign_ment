@@ -24,6 +24,6 @@ const driverRouter = require("./routes/drivers");
 
 app.use('/driver', driverRouter);
 
-app.listen(process.env.PORT|3000, function(){
-  console.log("server up at 3000")
+app.listen(process.env.PORT|4000, function(){
+  console.log("server up at 4000")
 })
