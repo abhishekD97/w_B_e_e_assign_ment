@@ -7,7 +7,7 @@ function Login(){
     
     function loginVehicle(e){
         console.log(vehicleNum);
-        let l = "http://localhost:4000/driver/"+vehicleNum;
+        let l = "https://secure-falls-81966.herokuapp.com/driver/"+vehicleNum;
         
         axios.get(l).then(function (response) {
             response.data.map( (x) => {

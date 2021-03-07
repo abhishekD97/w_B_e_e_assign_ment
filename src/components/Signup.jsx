@@ -21,7 +21,7 @@ function Signup(){
             location : location,
             state : state
         }
-        axios.post('http://localhost:4000/driver', driverDetails)
+        axios.post('https://secure-falls-81966.herokuapp.com/driver', driverDetails)
         .then(function (response) {
             console.log(response);
             window.location = '/login';
